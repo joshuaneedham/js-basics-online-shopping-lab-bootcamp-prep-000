@@ -1,7 +1,7 @@
 var cart = [];
 
-function getCart(item) {
-  return cart;
+function getCart() {
+ return cart;
 }
 
 function setCart(c) {
@@ -11,10 +11,10 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ item = new Object();
 }
 
 function viewCart() {
-
   // write your code here
 }
 
