@@ -1,7 +1,7 @@
 var cart = [];
 
-function getCart() {
- return cart;
+function getCart(item) {
+  return cart;
 }
 
 function setCart(c) {
@@ -14,6 +14,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
+
   // write your code here
 }
 
